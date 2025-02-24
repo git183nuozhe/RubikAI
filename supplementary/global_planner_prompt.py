@@ -1,1 +1,24 @@
-
+objects=['rubikscube']
+# Query: solving the code "U2 R1 U3 F2 L3 D3 B1" to instruction.
+code_composer("move gripper to the |\underline{up layer}| of the rubiks cube")
+code_composer("rotate the gripper at up layer clockwise by |\underline{2*90 degrees}|")
+code_composer("back to default pose")
+code_composer("move gripper to the |\underline{right layer}| of the rubiks cube")
+code_composer("rotate the gripper at right layer clockwise by |\underline{1*90 degrees}|")
+code_composer("back to default pose")
+code_composer("move gripper to the up layer of the rubiks cube")
+code_composer("rotate the gripper at up layer counterclockwise by (4-3)*90 degrees")
+code_composer("back to default pose")
+code_composer("move gripper to the |\underline{front layer}| of the rubiks cube")
+code_composer("rotate the gripper at front layer clockwise by |\underline{2*90 degrees}|")
+code_composer("back to default pose")
+code_composer("move gripper to the |\underline{left layer}| of the rubiks cube")
+code_composer("rotate the gripper at left layer counterclockwise by |\underline{(4-3)*90 degrees}|")
+code_composer("back to default pose")
+code_composer("move gripper to the |\underline{down layer}| of the rubiks cube")
+code_composer("rotate the gripper at down layer counterclockwise by |\underline{(4-3)*90 degrees}|")
+code_composer("back to default pose")
+code_composer("move gripper to the |\underline{back layer}| of the rubiks cube")
+code_composer("rotate the gripper at back layer clockwise by |\underline{1*90 degrees}|")
+code_composer("back to default pose")
+# done
