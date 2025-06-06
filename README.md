@@ -1,1 +1,1 @@
-This Paper is under review of IROS.
+This Paper is under review of CAAI Transactions on Intelligence Technology.
